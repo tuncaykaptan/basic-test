@@ -48,10 +48,7 @@ var jsons = {
     
 
     
-var soru=document.getElementById("aciklama");
-var s1=document.getElementById("secenek1");
-var s2=document.getElementById("secenek2");
-var s3=document.getElementById("secenek2");
+
 var sorusayisi=0;
 var puan=0;
 function siradakisoru(x){
