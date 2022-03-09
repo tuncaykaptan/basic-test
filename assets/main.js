@@ -60,8 +60,8 @@ function siradakisoru(x){
         
         soruver(sorusayisi);
         puanver(sorusayisi,x);
-        console.log(sorusayisi)
         sorusayisi++;
+        console.log(sorusayisi)
         
         
         }
@@ -75,7 +75,6 @@ function soruver(sorusayisi){
         document.getElementById("secenek2").innerHTML=jsons.sorular[sorusayisi].response_b;
         document.getElementById("secenek3").innerHTML=jsons.sorular[sorusayisi].response_c;
         document.getElementById("foto").style.background=jsons.sorular[sorusayisi].foto;
-        sorusayisi++;
         }
 }
 
